@@ -1,0 +1,13 @@
+//Linux绑定快捷键
+[
+    {
+        "keys": ["ctrl+alt+/"],
+        "command": "keymapmanager",
+        "args": {"mod": "switch"}
+    },
+    {
+        "keys": ["ctrl+alt+k"],
+        "command": "keymapmanager",
+        "args": {"mod": "add"}
+    }
+]

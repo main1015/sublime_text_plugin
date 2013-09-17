@@ -1,0 +1,28 @@
+//Main.sublime-menu 顶部菜单
+[
+    {
+        "id": "view",
+        "children":[
+            {
+                "caption": "Keymap Manager",
+                "id": "keymap-manager",
+                "children":[
+                    {
+                        "caption": "Switch",
+                        "id": "keymap-switch",
+                        // "keys": ["ctrl+alt+/"],
+                        "command": "keymapmanager",
+                        "args": {"mod": "switch"}
+                    },
+                    {
+                        "caption": "Add",
+                        "id": "keymap-add",
+                        // "keys": ["ctrl+alt+k"],
+                        "command": "keymapmanager",
+                        "args": {"mod": "add"}
+                    }
+                ]
+            }
+        ]
+    }
+]
