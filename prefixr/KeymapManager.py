@@ -104,8 +104,10 @@ class KeymapmanagerCommand(sublime_plugin.TextCommand):
                     self.row = _region.end() + 1
                     time.sleep(1)   
 
+        settings = self.view.settings()
+        print dir(settings)
+        print type(settings)
         run = _scroll(self)
-        print dir(run)
-        run.start()
+        # run.start()
 
 
