@@ -3,7 +3,12 @@
     {
         "keys": ["ctrl+alt+>"],
         "command": "keymapmanager",
-        "args": {"mod": "switch"}
+        "args": {"mod": "right"}
+    },
+    {
+        "keys": ["ctrl+alt+<"],
+        "command": "keymapmanager",
+        "args": {"mod": "left"}
     },
     {
         "keys": ["ctrl+alt+k"],

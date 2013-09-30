@@ -8,11 +8,18 @@
                 "id": "keymap-manager",
                 "children":[
                     {
-                        "caption": "Switch",
-                        "id": "keymap-switch",
-                        // "keys": ["ctrl+alt+/"],
+                        "caption": "goto right",
+                        "id": "keymap-right",
+                        // "keys": ["ctrl+alt+>],
                         "command": "keymapmanager",
-                        "args": {"mod": "switch"}
+                        "args": {"mod": "right"}
+                    },
+                    {
+                        "caption": "goto left",
+                        "id": "keymap-left",
+                        // "keys": ["ctrl+alt+<"],
+                        "command": "keymapmanager",
+                        "args": {"mod": "left"}
                     },
                     {
                         "caption": "Add",
