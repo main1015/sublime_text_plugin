@@ -1,7 +1,7 @@
 //Linux绑定快捷键
 [
     {
-        "keys": ["ctrl+alt+/"],
+        "keys": ["ctrl+alt+>"],
         "command": "keymapmanager",
         "args": {"mod": "switch"}
     },
